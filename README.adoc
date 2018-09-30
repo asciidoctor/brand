@@ -2,3 +2,14 @@
 
 This is the home of Asciidoctor's evolving brand and visual identity.
 This repository hosts the logo, logotype, and brand colors, as well as guidelines for how to use these assets.
+
+== Colors
+
+The following colors should be used.
+Follow the link for the colors to see CMYK and other conversions.
+
+charcoal:: Use for: text and inverted color +
+RGB color: http://www.color-hex.com/color/191919[#191919]
+
+carmine:: Use for: accent and fill color +
+RGB color: http://www.color-hex.com/color/e40046[#e40046]
