@@ -2,3 +2,62 @@
 
 This is the home of Asciidoctor's evolving brand and visual identity.
 This repository hosts the logo, logotype, and brand colors, as well as guidelines for how to use these assets.
+
+== Logo
+
+The logo files can be found in the logo folder in SVG format.
+
+=== Variations
+
+The logo is square.
+The logo comes in two variations:
+
+* fill - white text on either carmine or charcoal background
+* outline - charcoal text on white background
+
+The main logo is the fill variant.
+The outline logo is the alternate.
+Each logo has a color and grayscale version.
+Each logo also has a rounded (default) and square (alternate) version.
+
+=== Usage
+
+The logo may be used as is to represent the Asciidoctor project or the AsciiDoc file format.
+It may be scaled upwards to any size, but should not be scaled downwards below 16x16 pixels.
+
+The outline logo can be used as an alternate when the fill variant does not fit well in the context in which it is used.
+
+When creating a PNG from the SVG files for use as an avatar on social media sites, the recommended size is 1000x1000.
+
+=== Colors
+
+The colors used in the logo are as follows:
+
+[cols="1,1,1,1,3"]
+|===
+| Name | Hex | RGB | CMYK | Usage
+
+| carmine
+| #e40046
+| 228, 0, 70
+| 0, 100, 69, 11
+a|
+* background (fill logo)
+* text accent (outline logo)
+
+| charcoal
+| #191919
+| 25, 25, 25
+| 0, 0, 0, 90
+a|
+* grayscale background (fill logo)
+* text (outline logo)
+
+| white
+| #ffffff
+| 255, 255, 255
+| 0, 0, 0, 0
+a|
+* text (fill logo)
+* background (outline logo)
+|===
