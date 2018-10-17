@@ -18,7 +18,8 @@ The logo comes in two variations:
 The main logo is the fill variant.
 The outline logo is the alternate.
 Each logo has a color and grayscale version.
-Each logo also has a rounded (default) and square (alternate) version.
+Each logo also has a round edges (default) and square edges (alternate) version.
+The round edges version is preferred, but not required.
 
 === Usage
 
