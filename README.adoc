@@ -21,6 +21,19 @@ Each logo has a color and grayscale version.
 Each logo also has a round edges (default) and square edges (alternate) version.
 The round edges version is preferred, but not required.
 
+=== Export
+
+To export the logos to PNG and produce a favicon, run the following script:
+
+ $ ./export-to-png.sh
+
+You can find the generated PNG files in the [.path]_gen/_ folder.
+
+The export script requires the following commands:
+
+* convert (from ImageMagick)
+* icotool
+
 === Usage
 
 The logo may be used as is to represent the Asciidoctor project or the AsciiDoc file format.
