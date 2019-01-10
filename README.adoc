@@ -36,7 +36,7 @@ The export script requires the following commands:
 
 === Usage
 
-The logo may be used as is to represent the Asciidoctor project or the AsciiDoc file format.
+The logo may be used *as is* (without any color modifications) to represent the Asciidoctor project or the AsciiDoc file format.
 It may be scaled upwards to any size, but should not be scaled downwards below 16x16 pixels.
 
 The outline logo can be used as an alternate when the fill variant does not fit well in the context in which it is used.
