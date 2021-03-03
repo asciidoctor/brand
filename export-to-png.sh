@@ -13,15 +13,16 @@ convert -background none -filter Lanczos -resize 2000x logo/logo-fill-bw.svg $OU
 # icon size
 convert -background none -filter Lanczos -distort resize 32x logo/icon/logo-outline-color.svg $OUTDIR/asciidoctor-logo-outline-color-32.png
 convert -background none -filter Lanczos -distort resize 16x -unsharp 0x1+.5+.25 logo/icon/logo-outline-color.svg $OUTDIR/asciidoctor-logo-outline-color-16.png
+convert -background none -filter Lanczos -resize 512x logo/logo-fill-color.svg $OUTDIR/asciidoctor-logo-fill-color-512.png
+convert -background none -filter Lanczos -distort resize 192x logo/logo-fill-color.svg $OUTDIR/asciidoctor-logo-fill-color-192.png
 convert -background none -filter Lanczos -distort resize 180x logo/logo-fill-color.svg $OUTDIR/asciidoctor-logo-fill-color-180.png
 convert -background none -filter Lanczos -distort resize 64x logo/icon/logo-fill-color.svg $OUTDIR/asciidoctor-logo-fill-color-64.png
 convert -background none -filter Lanczos -distort resize 48x logo/icon/logo-fill-color.svg $OUTDIR/asciidoctor-logo-fill-color-48.png
 convert -background none -filter Lanczos -distort resize 32x logo/icon/logo-fill-color.svg $OUTDIR/asciidoctor-logo-fill-color-32.png
 convert -background none -filter Lanczos -distort resize 16x -unsharp 0x1+.5+.25 logo/icon/logo-fill-color.svg $OUTDIR/asciidoctor-logo-fill-color-16.png
 
-# favicon
+# favicon (see https://github.com/audreyfeldroy/favicon-cheat-sheet/blob/master/README.rst)
 icotool -c -o $OUTDIR/favicon.ico \
-  $OUTDIR/asciidoctor-logo-fill-color-180.png \
   $OUTDIR/asciidoctor-logo-fill-color-64.png \
   $OUTDIR/asciidoctor-logo-fill-color-48.png \
   $OUTDIR/asciidoctor-logo-fill-color-32.png \
